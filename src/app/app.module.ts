@@ -8,6 +8,8 @@ import 'hammerjs';
 import { AppComponent } from './app.component';
 import { RiUserLoginComponent } from './ri-user/ri-user-login/ri-user-login.component';
 import { RiUserRegistrationComponent } from './ri-user/ri-user-registration/ri-user-registration.component';
+import { RiUserLogoffComponent } from './ri-user/ri-user-logoff/ri-user-logoff.component';
+import { RiUserListComponent } from './ri-user/ri-user-list/ri-user-list.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -15,7 +17,9 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [
     AppComponent,
     RiUserLoginComponent,
-    RiUserRegistrationComponent
+    RiUserRegistrationComponent,
+    RiUserLogoffComponent,
+    RiUserListComponent
   ],
   imports: [
     BrowserModule,
